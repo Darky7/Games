@@ -13,35 +13,38 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/**
+ * route index
+ */
 Route::get('/', function () {
     return view('index');
 });
 
-
+/**
+ * 404 route
+ */
 Route::get('404', function () {
     return view('404');
 });
 
-
+/**
+ * about page route
+ */
 Route::get('about', function () {
     return view('about');
 });
-
 
 Route::get('blog-details', function () {
     return view('blog-details');
 });
 
-
 Route::get('blog-fullwidth', function () {
     return view('blog-fullwidth');
 });
 
-
 Route::get('blog-sidebar', function () {
     return view('blog-sidebar');
 });
-
 
 Route::get('blog', function () {
     return view('blog');
@@ -77,16 +80,13 @@ Route::get('login', function () {
     return view('login');
 });
 
-
 Route::get('my-account', function () {
     return view('my-account');
 });
 
-
 Route::get('product-details', function () {
     return view('product-details');
 });
-
 
 Route::get('product-grouped', function () {
     return view('product-grouped');
