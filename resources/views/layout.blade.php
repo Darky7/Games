@@ -1,11 +1,6 @@
-
-
-
 <!doctype html>
 <html class="no-js" lang="en">
 
-
-<!-- Mirrored from demo.hasthemes.com/braga/braga/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Dec 2020 19:56:30 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -46,17 +41,7 @@
 
 </head>
 
-
-
-
 @yield('content')
-
-
-
-
-
-
-
 
 <footer class="footer_widgets footer_padding"> 
         <div class="container">
@@ -124,7 +109,6 @@
     </footer>
     <!--footer area end-->
    
- 
 <!-- JS
 ============================================ -->
 <!--jquery min js-->
@@ -153,10 +137,6 @@
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
 
-
-
 </body>
 
-
-<!-- Mirrored from demo.hasthemes.com/braga/braga/wishlist.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Dec 2020 19:56:44 GMT -->
 </html>

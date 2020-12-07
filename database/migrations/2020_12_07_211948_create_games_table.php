@@ -16,6 +16,12 @@ class CreateGamesTable extends Migration
         Schema::create('games', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('description');
+            $table->string('date_publication');
+            $table->string('keywords');
+            $table->string('price');
+            $table->string('language');
+            $table->string('plateforme'); // ps4 - pc - ps2
             $table->timestamps();
         });
     }
