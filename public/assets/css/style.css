@@ -49,6 +49,10 @@ html, body {
   height: 100%;
 }
 
+.sticky-header {
+  background-color: rgb(64, 29, 219);
+}
+
 body {
   line-height: 24px;
   font-size: 14px;
@@ -71,6 +75,7 @@ h1 {
   font-size: 48px;
   line-height: 1;
   font-weight: 700;
+  
 }
 
 h2 {
@@ -199,15 +204,15 @@ figure {
     - Background color
 -----------------------------------------*/
 .bg-white {
-  background-color: #ffffff;
+  background-color: #7b29ff;
 }
 
 .bg-light-grey {
-  background-color: #f6fafb;
+  background-color: #ec5eff;
 }
 
 .bg-grey {
-  background-color: #f8f8f8;
+  background-color: #9c07ff;
 }
 
 .bluewood-bg {
@@ -303,6 +308,12 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   padding: 0 !important;
   margin: 0 !important;
 }
+
+ {
+  color:#c898ff;
+}
+ 
+
 
 .mt-23 {
   margin-top: 23px;
@@ -456,7 +467,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .offcanvas_menu_wrapper {
   width: 290px;
   position: fixed;
-  background: #fff;
+  background: rgb(142, 5, 255);
   z-index: 999;
   top: 0;
   height: 100vh;
@@ -499,7 +510,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   display: block;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 1px solid #9e28ff;
 }
 .offcanvas_main_menu li a:hover {
   color: #ff4545;
@@ -596,7 +607,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   z-index: 99;
   width: 100%;
   top: 0;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(102, 130, 255, 0.9);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -1570,7 +1581,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   line-height: 28px;
   margin-bottom: 11px;
   font-weight: 400;
-  color: #ff4545;
+  color: #9c45ff;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .slider_content h2 {
@@ -4769,7 +4780,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .breadcrumbs_area {
   padding: 35px 0;
-  background: #efefef;
+  background: #c266ff;
   margin-bottom: 80px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4943,8 +4954,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .ui-slider-horizontal .ui-slider-range {
-  background: #ff4545;
-  height: 2px;
+  background: #9c45ff;
+  height: 5px;
 }
 
 .ui-slider-horizontal {
@@ -6641,6 +6652,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   }
 }
 
+
+.footer_widgets {
+  color: #9c45ff;
+  background-color: #9c45ff;
+}
 .footer_widgets.sidebar_widgets .footer_top {
   padding-bottom: 0;
   border-bottom: 0;
@@ -6704,6 +6720,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 /* 13. cart page css here */
+
+
 .header_cart_page {
   border-bottom: 1px solid #ededed;
 }

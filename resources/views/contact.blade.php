@@ -13,7 +13,7 @@
                     <div class="breadcrumb_content">
                         <h3>contact</h3>
                         <ul>
-                            <li><a href="index.html">home</a></li>
+                            <li><a href="index">home</a></li>
                             <li>contact us</li>
                         </ul>
                     </div>

@@ -12,7 +12,7 @@
                 <div class="col-12">
                     <div class="breadcrumb_content">
                         <ul>
-                            <li><a href="index.html">home</a></li>
+                            <li><a href="index">home</a></li>
                             <li>Frequently Questions</li>
                         </ul>
                     </div>

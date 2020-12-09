@@ -17,7 +17,7 @@
                             <input placeholder="Search..." type="text">
                             <button type="submit"><i class="icon-magnifier icons"></i></button>
                         </form>
-                        <a href="index.html">Back to home page</a>
+                        <a href="welcome">Back to home page</a>
                     </div>
                 </div>
             </div>
@@ -73,12 +73,21 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-7">
                         <div class="footer_bottom_left">
+<<<<<<< HEAD
                             <div class="footer_logo">
                                 <a href="index.html"><img src="assets/img/logo/logo2.png" alt=""></a>
                             </div>
                             <div class="copyright_area">
                                 <p>Copyright © 2020 <a href="index.html">Braga</a>. <a href="https://hasthemes.com/" target="_blank">All rights reserved.</a></p>
                             </div>
+=======
+                        	<div class="footer_logo">
+							   <a href="index"><img src="assets/img/logo/logo2.png" alt=""></a>
+							</div>
+                        	<div class="copyright_area">
+								<p>Copyright  © 2020  <a href="index">Braga</a>.  <a href="https://hasthemes.com/" target="_blank">All rights reserved.</a></p>
+							</div>
+>>>>>>> 569882448cd94c8c3a3c3b58307bf1e8699c6af9
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-5">

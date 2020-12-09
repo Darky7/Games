@@ -12,7 +12,7 @@
                     <div class="breadcrumb_content">
                         <h3>My account</h3>
                         <ul>
-                            <li><a href="index.html">home</a></li>
+                            <li><a href="index">home</a></li>
                             <li>My account</li>
                         </ul>
                     </div>
@@ -36,7 +36,7 @@
                                 <li><a href="#downloads" data-toggle="tab" class="nav-link">Downloads</a></li>
                                 <li><a href="#address" data-toggle="tab" class="nav-link">Addresses</a></li>
                                 <li><a href="#account-details" data-toggle="tab" class="nav-link">Account details</a></li>
-                                <li><a href="login.html" class="nav-link">logout</a></li>
+                                <li><a href="login" class="nav-link">logout</a></li>
                             </ul>
                         </div>
                     </div>
@@ -66,14 +66,14 @@
                                                 <td>May 10, 2018</td>
                                                 <td><span class="success">Completed</span></td>
                                                 <td>$25.00 for 1 item </td>
-                                                <td><a href="cart.html" class="view">view</a></td>
+                                                <td><a href="cart" class="view">view</a></td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
                                                 <td>May 10, 2018</td>
                                                 <td>Processing</td>
                                                 <td>$17.00 for 1 item </td>
-                                                <td><a href="cart.html" class="view">view</a></td>
+                                                <td><a href="cart" class="view">view</a></td>
                                             </tr>
                                         </tbody>
                                     </table>

@@ -12,7 +12,7 @@
                     <div class="breadcrumb_content">
                         <h3>Checkout</h3>
                         <ul>
-                            <li><a href="index.html">home</a></li>
+                            <li><a href="index">home</a></li>
                             <li>Checkout</li>
                         </ul>
                     </div>
