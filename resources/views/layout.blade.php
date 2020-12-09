@@ -59,8 +59,8 @@
                     </div>
                     <div id="menu" class="text-left ">
                         <ul class="offcanvas_main_menu">
-                            <li class="menu-item-has-children active">
-                                <a href="">Home</a>
+                            <li class="menu-item-has-children">
+                                <a href="/">Home</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="shop">Shop</a>
@@ -105,7 +105,7 @@
                     <div class="main_menu menu_position">
                         <nav>
                             <ul>
-                                <li><a class="active" href="">Home</a></li>
+                                <li><a class="" href="/">Home</a></li>
                                 <li><a href="shop">Shop</a></li>
                                 <li><a href="my-account">My Account</a></li>
                                 <li><a href="cart">Cart</a></li>
@@ -202,29 +202,81 @@
             <div class="cart_button">
                 <a href="checkout.html"><i class="fa fa-sign-in"></i> Checkout</a>
             </div>
-            <div class="footer_bottom">  
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-7">
-                        <div class="footer_bottom_left">
-                        	<div class="footer_logo">
-							   <a href=""><img src="assets/img/logo/logo2.png" alt=""></a>
-							</div>
-                        	<div class="copyright_area">
-								<p>Copyright  © 2020  <a href="index">Braga</a>.  <a href="https://hasthemes.com/" target="_blank">All rights reserved.</a></p>
-							</div>
+
+        </div>
+    </div>
+    <!--mini cart end-->
+</header>
+<!--header area end-->
+
+@yield('content')
+
+<footer class="footer_widgets footer_padding">
+    <div class="container">
+        <div class="footer_top">
+            <div class="row">
+                <div class="col-12">
+                    <div class="newsletter_area">
+                        <div class="section_title">
+                            <h2>Keep Connected</h2>
                         </div>
-                    </div> 
-                    <div class="col-lg-6 col-md-5">
-                       <div class="footer_paypal text-right">
-                       		<a href=""><img src="assets/img/icon/payment.png" alt=""></a>	
-                       </div>
-                    </div>    
-                </div>     
-            </div>  
-        </div>    
-    </footer>
-    <!--footer area end-->
-   
+                        <div class="newsletter_desc">
+                            <p>Get updates by subscribe our weekly newsletter</p>
+                        </div>
+                        <div class="subscribe_form">
+                            <form id="mc-form" class="mc-form footer-newsletter">
+                                <input id="mc-email" type="email" autocomplete="off" placeholder="Your email address" />
+                                <button id="mc-submit">Subscribe</button>
+                            </form>
+                            <!-- mailchimp-alerts Start -->
+                            <div class="mailchimp-alerts text-centre">
+                                <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                                <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                            </div><!-- mailchimp-alerts end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_middle">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer_social">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-7">
+                    <div class="footer_bottom_left">
+                        <div class="footer_logo">
+                            <a href="index.html"><img src="assets/img/logo/logo2.png" alt=""></a>
+                        </div>
+                        <div class="copyright_area">
+                            <p>Copyright © 2020 <a href="index.html">Braga</a>. <a href="https://hasthemes.com/" target="_blank">All rights reserved.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-5">
+                    <div class="footer_paypal text-right">
+                        <a href="#"><img src="assets/img/icon/payment.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer area end-->
+
 <!-- JS
 ============================================ -->
 <!--jquery min js-->
