@@ -27,9 +27,9 @@
                                 <li class="menu-item-has-children active">
                                     <a href="#">Home</a>
                                     <ul class="sub-menu">
-                                        <li><a href="index.html">Home 1</a></li>
-                                        <li><a href="index-2.html">Home 2</a></li>
-                                        <li><a href="index-3.html">Home 3</a></li>
+                                        <li><a href="index">Home 1</a></li>
+                                        <li><a href="index-2">Home 2</a></li>
+                                        <li><a href="index-3">Home 3</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
@@ -38,31 +38,31 @@
                                         <li class="menu-item-has-children">
                                             <a href="#">Shop Layouts</a>
                                             <ul class="sub-menu">
-                                                <li><a href="shop.html">shop</a></li>
-                                                <li><a href="shop-fullwidth.html">Full Width</a></li>
-                                                <li><a href="shop-fullwidth-list.html">Full Width list</a></li>
-                                                <li><a href="shop-right-sidebar.html">Right Sidebar </a></li>
-                                                <li><a href="shop-right-sidebar-list.html"> Right Sidebar list</a></li>
-                                                <li><a href="shop-list.html">List View</a></li>
+                                                <li><a href="shop">shop</a></li>
+                                                <li><a href="shop-fullwidth">Full Width</a></li>
+                                                <li><a href="shop-fullwidth-list">Full Width list</a></li>
+                                                <li><a href="shop-right-sidebar">Right Sidebar </a></li>
+                                                <li><a href="shop-right-sidebar-list"> Right Sidebar list</a></li>
+                                                <li><a href="shop-list">List View</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">other Pages</a>
                                             <ul class="sub-menu">
-                                                <li><a href="cart.html">cart</a></li>
-                                                <li><a href="wishlist.html">Wishlist</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                                <li><a href="my-account.html">my account</a></li>
-                                                <li><a href="404.html">Error 404</a></li>
+                                                <li><a href="cart">cart</a></li>
+                                                <li><a href="wishlist">Wishlist</a></li>
+                                                <li><a href="checkout">Checkout</a></li>
+                                                <li><a href="my-account">my account</a></li>
+                                                <li><a href="404">Error 404</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Product Types</a>
                                             <ul class="sub-menu">
-                                                <li><a href="product-details.html">product details</a></li>
-                                                <li><a href="product-sidebar.html">product sidebar</a></li>
-                                                <li><a href="product-grouped.html">product grouped</a></li>
-                                                <li><a href="variable-product.html">product variable</a></li>
+                                                <li><a href="product-details">product details</a></li>
+                                                <li><a href="product-sidebar">product sidebar</a></li>
+                                                <li><a href="product-grouped">product grouped</a></li>
+                                                <li><a href="variable-product">product variable</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -70,32 +70,32 @@
                                 <li class="menu-item-has-children">
                                     <a href="#">blog</a>
                                     <ul class="sub-menu">
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="blog-details.html">blog details</a></li>
-                                        <li><a href="blog-fullwidth.html">blog fullwidth</a></li>
-                                        <li><a href="blog-sidebar.html">blog sidebar</a></li>
+                                        <li><a href="blog">blog</a></li>
+                                        <li><a href="blog-details">blog details</a></li>
+                                        <li><a href="blog-fullwidth">blog fullwidth</a></li>
+                                        <li><a href="blog-sidebar">blog sidebar</a></li>
                                     </ul>
 
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="#">pages </a>
                                     <ul class="sub-menu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="services.html">services</a></li>
-                                        <li><a href="faq.html">Frequently Questions</a></li>
-                                        <li><a href="contact.html">contact</a></li>
-                                        <li><a href="login.html">login</a></li>
-                                        <li><a href="404.html">Error 404</a></li>
+                                        <li><a href="about">About Us</a></li>
+                                        <li><a href="services">services</a></li>
+                                        <li><a href="faq">Frequently Questions</a></li>
+                                        <li><a href="contact">contact</a></li>
+                                        <li><a href="login">login</a></li>
+                                        <li><a href="404">Error 404</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="my-account.html">my account</a>
+                                    <a href="my-account">my account</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="about.html">about Us</a>
+                                    <a href="about">about Us</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="contact.html"> Contact Us</a> 
+                                    <a href="contact"> Contact Us</a> 
                                 </li>
                             </ul>
                         </div>
@@ -115,7 +115,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-2 col-md-4 offset-md-4 offset-lg-0 col-5 offset-3 col-sm-5">
 						<div class="logo">
-							<a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+							<a href="index"><img src="assets/img/logo/logo.png" alt=""></a>
 						</div>
 					</div>
 					<div class="col-lg-8">                
@@ -123,63 +123,63 @@
 						<div class="main_menu menu_position"> 
 							<nav>  
 								<ul>
-									<li><a  href="index.html">home<i class="fa fa-angle-down"></i></a>
+									<li><a  href="index">home<i class="fa fa-angle-down"></i></a>
 										<ul class="sub_menu">
-											<li><a href="index.html">Home shop 1</a></li>
-											<li><a href="index-2.html">Home shop 2</a></li>
-											<li><a href="index-3.html">Home shop 3</a></li>
+											<li><a href="index">Home shop 1</a></li>
+											<li><a href="index-2">Home shop 2</a></li>
+											<li><a href="index-3">Home shop 3</a></li>
 										</ul>
 									</li>
-									<li class="mega_items"><a class="active" href="shop.html">shop<i class="fa fa-angle-down"></i></a> 
+									<li class="mega_items"><a class="active" href="shop">shop<i class="fa fa-angle-down"></i></a> 
 										<div class="mega_menu">
 											<ul class="mega_menu_inner">
 												<li><a href="#">Shop Layouts</a>
 													<ul>
-														<li><a href="shop-fullwidth.html">Full Width</a></li>
-														<li><a href="shop-fullwidth-list.html">Full Width list</a></li>
-														<li><a href="shop-right-sidebar.html">Right Sidebar </a></li>
-														<li><a href="shop-right-sidebar-list.html"> Right Sidebar list</a></li>
-														<li><a href="shop-list.html">List View</a></li>
+														<li><a href="shop-fullwidth">Full Width</a></li>
+														<li><a href="shop-fullwidth-list">Full Width list</a></li>
+														<li><a href="shop-right-sidebar">Right Sidebar </a></li>
+														<li><a href="shop-right-sidebar-list"> Right Sidebar list</a></li>
+														<li><a href="shop-list">List View</a></li>
 													</ul>
 												</li>
 												<li><a href="#">other Pages</a>
 													<ul>
-														<li><a href="cart.html">cart</a></li>
-														<li><a href="wishlist.html">Wishlist</a></li>
-														<li><a href="checkout.html">Checkout</a></li>
-														<li><a href="my-account.html">my account</a></li>
-														<li><a href="404.html">Error 404</a></li>
+														<li><a href="cart">cart</a></li>
+														<li><a href="wishlist">Wishlist</a></li>
+														<li><a href="checkout">Checkout</a></li>
+														<li><a href="my-account">my account</a></li>
+														<li><a href="404">Error 404</a></li>
 													</ul>
 												</li>
 												<li><a href="#">Product Types</a>
 													<ul>
-														<li><a href="product-details.html">product details</a></li>
-														<li><a href="product-sidebar.html">product sidebar</a></li>
-														<li><a href="product-grouped.html">product grouped</a></li>
-														<li><a href="variable-product.html">product variable</a></li>
+														<li><a href="product-details">product details</a></li>
+														<li><a href="product-sidebar">product sidebar</a></li>
+														<li><a href="product-grouped">product grouped</a></li>
+														<li><a href="variable-product">product variable</a></li>
 
 													</ul>
 												</li>
 											</ul>
 										</div>
 									</li>
-									<li><a href="blog.html">blog<i class="fa fa-angle-down"></i></a>
+									<li><a href="blog">blog<i class="fa fa-angle-down"></i></a>
 										<ul class="sub_menu pages">
-											<li><a href="blog-details.html">blog details</a></li>
-											<li><a href="blog-fullwidth.html">blog fullwidth</a></li>
-											<li><a href="blog-sidebar.html">blog sidebar</a></li>
+											<li><a href="blog-details">blog details</a></li>
+											<li><a href="blog-fullwidth">blog fullwidth</a></li>
+											<li><a href="blog-sidebar">blog sidebar</a></li>
 										</ul>
 									</li> 
-									<li><a href="contact.html"> Contact Us</a></li>
-									<li><a href="about.html"> About us</a></li>
+									<li><a href="contact"> Contact Us</a></li>
+									<li><a href="about"> About us</a></li>
 									<li><a href="#">pages <i class="fa fa-angle-down"></i></a>
 										<ul class="sub_menu pages">
-											<li><a href="about.html">About Us</a></li>
-											<li><a href="services.html">services</a></li>
-											<li><a href="faq.html">Frequently Questions</a></li>
-											<li><a href="contact.html">contact</a></li>
-											<li><a href="login.html">login</a></li>
-											<li><a href="404.html">Error 404</a></li>
+											<li><a href="about">About Us</a></li>
+											<li><a href="services">services</a></li>
+											<li><a href="faq">Frequently Questions</a></li>
+											<li><a href="contact">contact</a></li>
+											<li><a href="login">login</a></li>
+											<li><a href="404">Error 404</a></li>
 										</ul>
 									</li>
 								</ul>  
@@ -207,17 +207,17 @@
 						    <div class="language_currency header_account_list ">
 						        <a href="#"> <span class="pe-7s-user"></span></a>
 								<ul class="dropdown_currency">
-									<li><a href="my-account.html">My account</a></li>
+									<li><a href="my-account">My account</a></li>
 									<li><a href="#">Order History</a></li>
-									<li><a href="wishlist.html">Wishlist</a></li>
-									<li><a href="cart.html">Shipping</a></li>
+									<li><a href="wishlist">Wishlist</a></li>
+									<li><a href="cart">Shipping</a></li>
 								</ul>
 							</div>
 						</div>
 					</div>               
 				</div>
 			</div>
-        </div> 
+        </div>
         <!--mini cart-->
         <div class="mini_cart">
             <div class="cart_gallery">
@@ -268,15 +268,15 @@
             </div>
             <div class="mini_cart_footer">
                <div class="cart_button">
-                    <a href="cart.html"><i class="fa fa-shopping-cart"></i> View cart</a>
+                    <a href="cart"><i class="fa fa-shopping-cart"></i> View cart</a>
                 </div>
                 <div class="cart_button">
-                    <a href="checkout.html"><i class="fa fa-sign-in"></i> Checkout</a>
+                    <a href="checkout"><i class="fa fa-sign-in"></i> Checkout</a>
                 </div>
 
             </div>
         </div>
-        <!--mini cart end-->
+        <!--mini cart end--> 
     </header>
     <!--header area end-->
 
@@ -288,7 +288,7 @@
                     <div class="breadcrumb_content">
                         <h3>shop</h3>
                         <ul>
-                            <li><a href="index.html">home</a></li>
+                            <li><a href="index">home</a></li>
                             <li>shop</li>
                         </ul>
                     </div>
@@ -299,136 +299,10 @@
     <!--breadcrumbs area end-->
     
     <!--shop  area start-->
-    <div class="shop_area shop_reverse mb-80">
+    <div class="shop_area shop_fullwidth mb-80">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-12">
-                   <!--sidebar widget start-->
-                    <aside class="sidebar_widget">
-                        <div class="widget_inner">
-                            <div class="widget_list widget_categories">
-                                <h3>Women</h3>
-                                <ul>
-                                    <li class="widget_sub_categories sub_categories1"><a href="javascript:void(0)">Shoes</a>
-                                        <ul class="widget_dropdown_categories dropdown_categories1">
-                                            <li><a href="#">Document</a></li>
-                                            <li><a href="#">Dropcap</a></li>
-                                            <li><a href="#">Dummy Image</a></li>
-                                            <li><a href="#">Dummy Text</a></li>
-                                            <li><a href="#">Fancy Text</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="widget_sub_categories sub_categories2"><a href="javascript:void(0)">Bags</a>
-                                        <ul class="widget_dropdown_categories dropdown_categories2">
-                                            <li><a href="#">Flickr</a></li>
-                                            <li><a href="#">Flip Box</a></li>
-                                            <li><a href="#">Cocktail</a></li>
-                                            <li><a href="#">Frame</a></li>
-                                            <li><a href="#">Flickrq</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="widget_sub_categories sub_categories3"><a href="javascript:void(0)">Clothing</a>
-                                        <ul class="widget_dropdown_categories dropdown_categories3">
-                                            <li><a href="#">Platform Beds</a></li>
-                                            <li><a href="#">Storage Beds</a></li>
-                                            <li><a href="#">Regular Beds</a></li>
-                                            <li><a href="#">Sleigh Beds</a></li>
-                                            <li><a href="#">Laundry</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="widget_list widget_filter">
-                                <h3>Filter by price</h3>
-                                <form action="#"> 
-                                    <div id="slider-range"></div>   
-                                    <button type="submit">Filter</button>
-                                    <input type="text" name="text" id="amount" />   
-                                </form> 
-                            </div>
-                            <div class="widget_list widget_color">
-                                <h3>Select By Color</h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">Black  <span>(6)</span></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#">White  <span>(4)</span></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#"> Blue <span>(8)</span></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#"> Green <span>(6)</span></a> 
-                                    </li>
-                                  
-                                </ul>
-                            </div>
-                            <div class="widget_list widget_color">
-                                <h3>Select By SIze</h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">S  <span>(6)</span></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#"> M <span>(8)</span></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#">L <span>(10)</span></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#"> XL <span>(6)</span></a> 
-                                    </li>
-                                  
-                                </ul>
-                            </div>
-                             <div class="widget_list widget_brand">
-                                <h3>Brand</h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">Studio Design <span>(8)</span></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#"> Graphic Corner<span>(5)</span></a> 
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="widget_list widget_manu">
-                                <h3>Manufacturer</h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">Cotton <span>(6)</span></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#">Elastane <span>(10)</span></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#">Polyester <span>(4)</span></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#">Wool <span>(10)</span></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#">Squarred <span>(3)</span></a> 
-                                    </li>
-                                
-                                </ul>
-                            </div>
-                            <div class="widget_list tags_widget">
-                                <h3>Product tags</h3>
-                                <div class="tag_cloud">
-                                    <a href="#">Men</a>
-                                    <a href="#">Women</a>
-                                    <a href="#">Watches</a>
-                                    <a href="#">Bags</a>
-                                    <a href="#">Dress</a>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
-                    <!--sidebar widget end-->
-                </div>
-                <div class="col-lg-9 col-md-12">
+                <div class="col-12">
                     <!--shop wrapper start-->
                     
                     <!--shop toolbar start-->
@@ -460,33 +334,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product2.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Duis pulvinar obortis eleifend elementum</a></h4>
+										<h4 class="product_name"><a href="product-details">chouette c'est super</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$84.00</span>
 											<span class="current_price">$79.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Duis pulvinar obortis eleifend elementum</a></h4>
+                                    <h4 class="product_name"><a href="product-details">chouette c'est super</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$84.00</span>
 										<span class="current_price">$79.00</span>
@@ -501,10 +375,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>
@@ -512,33 +386,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product3.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product4.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Epicuri per lobortis eleifend eget laoreet</a></h4>
+										<h4 class="product_name"><a href="product-details">Epicuri per lobortis eleifend eget laoreet</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$86.00</span>
 											<span class="current_price">$81.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Epicuri per lobortis eleifend eget laoreet</a></h4>
+                                    <h4 class="product_name"><a href="product-details">Epicuri per lobortis eleifend eget laoreet</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$86.00</span>
 										<span class="current_price">$81.00</span>
@@ -553,10 +427,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>
@@ -564,33 +438,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product6.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Kaoreet lobortis sagittis laoreet metus is</a></h4>
+										<h4 class="product_name"><a href="product-details">youhouhou</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$78.00</span>
 											<span class="current_price">$76.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Kaoreet lobortis sagittis laoreet metus is</a></h4>
+                                    <h4 class="product_name"><a href="product-details">youhouhou</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$78.00</span>
 										<span class="current_price">$76.00</span>
@@ -605,10 +479,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>
@@ -616,33 +490,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product7.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product7.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product8.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Ornare sed consequat nisl eget mi porttitor</a></h4>
+										<h4 class="product_name"><a href="product-details">blablibla</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$88.00</span>
 											<span class="current_price">$86.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Ornare sed consequat nisl eget mi porttitor</a></h4>
+                                    <h4 class="product_name"><a href="product-details">blablibla</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$88.00</span>
 										<span class="current_price">$86.00</span>
@@ -657,10 +531,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>
@@ -668,33 +542,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product9.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product9.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product10.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Aliquam lobortis pellentesque nisi lectus</a></h4>
+										<h4 class="product_name"><a href="product-details">blablabla</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$76.00</span>
 											<span class="current_price">$72.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Aliquam lobortis pellentesque nisi lectus</a></h4>
+                                    <h4 class="product_name"><a href="product-details">blablabla</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$76.00</span>
 										<span class="current_price">$72.00</span>
@@ -709,10 +583,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>
@@ -720,33 +594,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product12.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Eodem modo vels is mattis antes facilisis</a></h4>
+										<h4 class="product_name"><a href="product-details">wouuuu</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$70.00</span>
 											<span class="current_price">$65.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Eodem modo vels is mattis antes facilisis</a></h4>
+                                    <h4 class="product_name"><a href="product-details">wouuuu</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$70.00</span>
 										<span class="current_price">$65.00</span>
@@ -761,10 +635,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>
@@ -772,33 +646,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product13.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product14.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product13.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product14.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Fusce ultricies  dolor vitae tristique suscipit</a></h4>
+										<h4 class="product_name"><a href="product-details">wow c'est du jamais vu</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$68.00</span>
 											<span class="current_price">$82.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Fusce ultricies  dolor vitae tristique suscipit</a></h4>
+                                    <h4 class="product_name"><a href="product-details">wow c'est du jamais vu</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$68.00</span>
 										<span class="current_price">$82.00</span>
@@ -813,10 +687,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>
@@ -824,33 +698,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product15.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product15.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product12.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Nostrum exercitationem itae posuere nisl</a></h4>
+										<h4 class="product_name"><a href="product-details">ohlala</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$65.00</span>
 											<span class="current_price">$62.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Nostrum exercitationem itae posuere nisl</a></h4>
+                                    <h4 class="product_name"><a href="product-details">ohlala</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$65.00</span>
 										<span class="current_price">$62.00</span>
@@ -865,10 +739,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>
@@ -876,33 +750,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product1.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Pellentesque posuere hendrerit dui quis</a></h4>
+										<h4 class="product_name"><a href="product-details">trop bien</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$60.00</span>
 											<span class="current_price">$55.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Pellentesque posuere hendrerit dui quis</a></h4>
+                                    <h4 class="product_name"><a href="product-details">trop bien</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$60.00</span>
 										<span class="current_price">$55.00</span>
@@ -917,10 +791,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>
@@ -928,33 +802,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product4.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product3.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Donec eu libero ac dapibus urna placerat</a></h4>
+										<h4 class="product_name"><a href="product-details">wow</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$78.00</span>
 											<span class="current_price">$76.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Donec eu libero ac dapibus urna placerat</a></h4>
+                                    <h4 class="product_name"><a href="product-details">wow</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$78.00</span>
 										<span class="current_price">$76.00</span>
@@ -969,10 +843,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>
@@ -980,33 +854,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product6.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product5.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Duis pulvinar obortis eleifend elementum</a></h4>
+										<h4 class="product_name"><a href="product-details">chouette c'est super</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$84.00</span>
 											<span class="current_price">$79.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Duis pulvinar obortis eleifend elementum</a></h4>
+                                    <h4 class="product_name"><a href="product-details">chouette c'est super</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$84.00</span>
 										<span class="current_price">$79.00</span>
@@ -1021,10 +895,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>
@@ -1032,33 +906,33 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product7.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product8.jpg" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product7.jpg" alt=""></a>
 									<div class="label_product">
 										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
 											<li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box"  title="quick view"> <span class="pe-7s-search"></span></a></li>
-											<li class="wishlist"><a href="wishlist.html" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
+											<li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
 											<li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>                                                 
 										</ul>
 									</div>
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details.html">Pellentesque posuere hendrerit dui quis</a></h4>
+										<h4 class="product_name"><a href="product-details">trop bien</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$69.00</span>
 											<span class="current_price">$67.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                                 <div class="product_content list_content">
-                                    <h4 class="product_name"><a href="product-details.html">Pellentesque posuere hendrerit dui quis</a></h4>
+                                    <h4 class="product_name"><a href="product-details">trop bien</a></h4>
 									<div class="price_box"> 
 										<span class="old_price">$69.00</span>
 										<span class="current_price">$67.00</span>
@@ -1073,10 +947,10 @@
                                         </ul>
                                     </div>
                                     <div class="product_desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
+                                        <p>wouhou</p>
                                     </div>
                                     <div class="add_to_cart shop_list_cart">
-										<a href="cart.html">Add to cart</a>
+										<a href="cart">Add to cart</a>
 									</div>
                                 </div>
                             </div>

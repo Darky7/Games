@@ -91,16 +91,16 @@
                     <div class="col-lg-6 col-md-7">
                         <div class="footer_bottom_left">
                         	<div class="footer_logo">
-							   <a href="index.html"><img src="assets/img/logo/logo2.png" alt=""></a>
+							   <a href=""><img src="assets/img/logo/logo2.png" alt=""></a>
 							</div>
                         	<div class="copyright_area">
-								<p>Copyright  © 2020  <a href="index.html">Braga</a>.  <a href="https://hasthemes.com/" target="_blank">All rights reserved.</a></p>
+								<p>Copyright  © 2020  <a href="index">Braga</a>.  <a href="https://hasthemes.com/" target="_blank">All rights reserved.</a></p>
 							</div>
                         </div>
                     </div> 
                     <div class="col-lg-6 col-md-5">
                        <div class="footer_paypal text-right">
-                       		<a href="#"><img src="assets/img/icon/payment.png" alt=""></a>	
+                       		<a href=""><img src="assets/img/icon/payment.png" alt=""></a>	
                        </div>
                     </div>    
                 </div>     
