@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Plateforme;
+use App\Models\Game;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,8 +18,10 @@ use Illuminate\Support\Facades\Route;
 /**
  * route index
  */
-Route::get('/', function () {
-    return view('index');
+Route::get('/', function(){
+    $plateformes = Plateforme::all();
+    $games = Game::all();
+    return view('index', compact('plateformes', 'games'));
 });
 
 /**
@@ -31,7 +35,10 @@ Route::get('404', function () {
  * about page route
  */
 Route::get('about', function () {
-    return view('about');
+    $page_name = "About";
+    return view('about', [
+        'page_name' => $page_name
+    ]);
 });
 
 Route::get('404', function () {
