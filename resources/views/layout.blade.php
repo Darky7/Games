@@ -8,36 +8,36 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon.ico') }}">
 
     <!-- CSS 
     ========================= -->
     <!--bootstrap min css-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!--owl carousel min css-->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
     <!--slick min css-->
-    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/slick.css') }}">
     <!--magnific popup min css-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
     <!--font awesome css-->
-    <link rel="stylesheet" href="assets/css/font.awesome.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/font.awesome.css') }}">
     <!--ionicons css-->
-    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/ionicons.min.css') }}">
     <!--7 stroke icons css-->
-    <link rel="stylesheet" href="assets/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/pe-icon-7-stroke.css') }}">
     <!--animate css-->
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
     <!--jquery ui min css-->
-    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/jquery-ui.min.css') }}">
     <!--plugins css-->
-    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}">
 
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
     <!--modernizr min js here-->
-    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="{{ asset('assets/js/vendor/modernizr-3.7.1.min.js') }}"></script>
 
 </head>
 
@@ -60,25 +60,25 @@
                     <div id="menu" class="text-left ">
                         <ul class="offcanvas_main_menu">
                             <li class="menu-item-has-children">
-                                <a href="/">Home</a>
+                                <a href="{{url('/')}}">Home</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="shop">Shop</a>
+                                <a href="{{url('shop')}}">Shop</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="my-account">My account</a>
+                                <a href="{{url('my-account')}}">My account</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="cart">Cart</a>
+                                <a href="{{url('cart')}}">Cart</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="whishlist">Whishlist</a>
+                                <a href="{{url('wishlist')}}">Whishlist</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="about">About Us</a>
+                                <a href="{{url('about')}}">About Us</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="contact">Contact Us</a>
+                                <a href="{{url('contact')}}">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -97,7 +97,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-2 col-md-4 offset-md-4 offset-lg-0 col-5 offset-3 col-sm-5">
                     <div class="logo">
-                        <a href="index"><img src="assets/img/logo/logo.png" alt=""></a>
+                        <a href="{{url('/')}}"><img src="assets/img/logo/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -105,13 +105,13 @@
                     <div class="main_menu menu_position">
                         <nav>
                             <ul>
-                                <li><a class="" href="/">Home</a></li>
-                                <li><a href="shop">Shop</a></li>
-                                <li><a href="my-account">My Account</a></li>
-                                <li><a href="cart">Cart</a></li>
-                                <li><a href="wishlist">Wishlist</a></li>
-                                <li><a href="about">About Us</a></li>
-                                <li><a href="contact">Contact Us</a></li>
+                                <li><a class="" href="{{url('/')}}">Home</a></li>
+                                <li><a href="{{url('shop')}}">Shop</a></li>
+                                <li><a href="{{url('my-account')}}">My Account</a></li>
+                                <li><a href="{{url('cart')}}">Cart</a></li>
+                                <li><a href="{{url('whishlist')}}">Wishlist</a></li>
+                                <li><a href="{{url('about')}}">About Us</a></li>
+                                <li><a href="{{url('contact')}}">Contact Us</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -137,9 +137,9 @@
                         <div class="language_currency header_account_list ">
                             <a href="#"> <span class="pe-7s-user"></span></a>
                             <ul class="dropdown_currency">
-                                <li><a href="my-account">My account</a></li>
-                                <li><a href="wishlist">Wishlist</a></li>
-                                <li><a href="cart">Shipping</a></li>
+                                <li><a href="{{url('my-account')}}">My account</a></li>
+                                <li><a href="{{url('wishlist')}}">Wishlist</a></li>
+                                <li><a href="{{url('cart')}}">Shipping</a></li>
                             </ul>
                         </div>
                     </div>
@@ -262,7 +262,7 @@
                             <a href="index.html"><img src="assets/img/logo/logo2.png" alt=""></a>
                         </div>
                         <div class="copyright_area">
-                            <p>Copyright © 2020 <a href="index.html">Braga</a>. <a href="https://hasthemes.com/" target="_blank">All rights reserved.</a></p>
+                            <p>Copyright © 2020 <a href="index.html">Braga</a>. <a href="#" target="_blank">All rights reserved.</a></p>
                         </div>
                     </div>
                 </div>
@@ -280,30 +280,30 @@
 <!-- JS
 ============================================ -->
 <!--jquery min js-->
-<script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+<script src="{{ asset('assets/js/vendor/jquery-3.4.1.min.js') }}"></script>
 <!--popper min js-->
-<script src="assets/js/popper.js"></script>
+<script src="{{ asset('assets/js/popper.js') }}"></script>
 <!--bootstrap min js-->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
 <!--owl carousel min js-->
-<script src="assets/js/owl.carousel.min.js"></script>
+<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
 <!--slick min js-->
-<script src="assets/js/slick.min.js"></script>
+<script src="{{ asset('assets/js/slick.min.js') }}"></script>
 <!--magnific popup min js-->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
 <!--jquery countdown min js-->
-<script src="assets/js/jquery.countdown.js"></script>
+<script src="{{ asset('assets/js/jquery.countdown.js') }}"></script>
 <!--jquery ui min js-->
-<script src="assets/js/jquery.ui.js"></script>
+<script src="{{ asset('assets/js/jquery.ui.js') }}"></script>
 <!--jquery elevatezoom min js-->
-<script src="assets/js/jquery.elevatezoom.js"></script>
+<script src="{{ asset('assets/js/jquery.elevatezoom.js') }}"></script>
 <!--isotope packaged min js-->
-<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
 <!-- Plugins JS -->
-<script src="assets/js/plugins.js"></script>
+<script src="{{ asset('assets/js/plugins.js') }}"></script>
 
 <!-- Main JS -->
-<script src="assets/js/main.js"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 

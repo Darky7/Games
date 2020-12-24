@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="breadcrumb_content">
-                        <h3>shop</h3>
+                        <h3>shop @foreach($plateformes as $plateforme) - {{$plateforme->name}}   @endforeach</h3>
                         <ul>
                             <li><a href="/">home</a></li>
                             <li>shop</li>
@@ -56,14 +56,14 @@
                      <div class="row shop_wrapper">
                      
                      @foreach($games as $game)
-
+                   
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product3.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product4.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="{{ asset('assets/img/product/product3.jpg') }}" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="{{ asset('assets/img/product/product4.jpg') }}" alt=""></a>
 									<div class="label_product">
-										<span class="label_sale">{{$game->name}}</span>
+										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
@@ -75,10 +75,10 @@
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details">{{$game->name}}</a></h4>
+										<h4 class="product_name"><a href="product-details">Epicuri per lobortis eleifend eget laoreet</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$86.00</span>
-											<span class="current_price">{{$game->price}} euros</span>
+											<span class="current_price">$81.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
@@ -110,7 +110,7 @@
                             </div>
                         </div>
 
-                    @endforeach
+                        @endforeach
                  
                     
                     </div>

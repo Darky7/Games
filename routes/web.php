@@ -78,7 +78,14 @@ Route::get('services', function () {
 });
 
 Route::get('shop', function () {
-    return view('shop');
+    $games = Game::all();
+    return view('shop', compact('games'));
+});
+
+Route::get('shop-plateforme/{id}', function ($id) {
+    $plateformes = Plateforme::where('id', '=', $id)->get();
+    $games = Game::where('plateforme_id', '=', $id)->get();
+    return view('shop-plateforme', compact('plateformes', 'games'));
 });
 
 Route::get('wishlist', function () {
