@@ -89,6 +89,7 @@
                 </div>
             </div>
             <div class="row">
+<<<<<<< HEAD
                 <div class="product_carousel product_column4 owl-carousel">
                     <div class="col-lg-3">
 
@@ -105,6 +106,25 @@
                                     <div class="product_collection">
                                         <p>{{$plateform->plateform_type}}</p>
                                         <a href="PS5">+ Voir jeux</a>
+=======
+
+                <div class="product_carousel product_column4 owl-carousel">
+                    <div class="col-lg-3">
+
+                        @foreach($plateformes as $plateforme)
+
+
+                        <article class="single_categories">
+                            <figure>
+                                <div class="categories_thumb">
+                                    <a href="{{url('shop-plateforme/'.$plateforme->id)}}"><img src="{{ asset('assets/img/s-product/category1.jpg') }}" alt=""></a>
+                                </div>
+                                <figcaption class="categories_content">
+                                    <h4 class="product_name"><a href="shop">{{$plateforme->name}}</a></h4>
+                                    <div class="product_collection">
+                                        <p>{{$plateforme->name}}</p>
+                                        <a href="{{url('shop-plateforme/'.$plateforme->id)}}">+ Voir jeux</a>
+>>>>>>> 79c6d57ab2d3ef6d93406f6abe61076819952dd0
                                     </div>
                                 </figcaption>
                             </figure>
@@ -195,14 +215,23 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
+<<<<<<< HEAD
                                         <a class="primary_img" href="product-details"><img src="assets/img/product/product1.jpg" alt=""></a>
                                         <a class="secondary_img" href="product-details"><img src="assets/img/product/product2.jpg" alt=""></a>
+=======
+                                        <a class="primary_img" href="{{url('product-details/'.$game->id)}}"><img src="{{ asset('assets/img/product/product1.jpg') }}" alt=""></a>
+                                        <a class="secondary_img" href="{{url('product-details/'.$game->id)}}"><img src="{{ asset('assets/img/product/product2.jpg') }}" alt=""></a>
+>>>>>>> 79c6d57ab2d3ef6d93406f6abe61076819952dd0
                                         <div class="label_product">
                                             <span class="label_sale">{{$game->name}}</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
+<<<<<<< HEAD
                                                 <li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box" title="quick view"> <span class="pe-7s-search"></span></a></li>
+=======
+                                                <li class="quick_button"><a href="{{url('product-details/'.$game->id)}}" data-toggle="modal" data-target="#modal_box" title="quick view"> <span class="pe-7s-search"></span></a></li>
+>>>>>>> 79c6d57ab2d3ef6d93406f6abe61076819952dd0
                                                 <li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
                                                 <li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>
                                             </ul>
@@ -210,9 +239,15 @@
                                     </div>
                                     <figcaption class="product_content">
                                         <div class="product_content_inner">
+<<<<<<< HEAD
                                             <h4 class="product_name"><a href="product-details">{{$game->description}}</a></h4>
                                             <div class="price_box">
                                                 <span class="current_price">EUR {{$game->price}} / {{$game->plateform_id}}</span>
+=======
+                                            <h4 class="product_name"><a href="{{url('product-details/'.$game->id)}}">{{$game->description}}</a></h4>
+                                            <div class="price_box">
+                                                <span class="current_price">EUR {{$game->price}} / {{$game->plateforme_id}}</span>
+>>>>>>> 79c6d57ab2d3ef6d93406f6abe61076819952dd0
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -224,6 +259,7 @@
 
                             @endforeach
 
+<<<<<<< HEAD
                         </div>
                     </div>
                 </div>
@@ -258,11 +294,18 @@
                         </div>
                         <div class="single_brand">
                             <a href="#"><img src="assets/img/brand/brand7.jpg" alt=""></a>
+=======
+>>>>>>> 79c6d57ab2d3ef6d93406f6abe61076819952dd0
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <!--brand area end-->
+=======
+    <!--product area end-->
+
+>>>>>>> 79c6d57ab2d3ef6d93406f6abe61076819952dd0
     @endsection

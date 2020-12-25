@@ -1,7 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 use App\Models\Plateform;
+=======
+use App\Models\Plateforme;
+>>>>>>> 79c6d57ab2d3ef6d93406f6abe61076819952dd0
 use App\Models\Game;
 
 /*
@@ -19,9 +23,15 @@ use App\Models\Game;
  * route index
  */
 Route::get('/', function(){
+<<<<<<< HEAD
     $plateforms = Plateform::all();
     $games = Game::all();
     return view('index', compact('plateforms', 'games'));
+=======
+    $plateformes = Plateforme::all();
+    $games = Game::all();
+    return view('index', compact('plateformes', 'games'));
+>>>>>>> 79c6d57ab2d3ef6d93406f6abe61076819952dd0
 });
 
 /**
@@ -75,10 +85,21 @@ Route::get('services', function () {
 });
 
 Route::get('shop', function () {
+<<<<<<< HEAD
     $plateforms = Plateform::all();
     $games = Game::all();
     return view('shop', compact('plateforms', 'games'));
    
+=======
+    $games = Game::all();
+    return view('shop', compact('games'));
+});
+
+Route::get('shop-plateforme/{id}', function ($id) {
+    $plateformes = Plateforme::where('id', '=', $id)->get();
+    $games = Game::where('plateforme_id', '=', $id)->get();
+    return view('shop-plateforme', compact('plateformes', 'games'));
+>>>>>>> 79c6d57ab2d3ef6d93406f6abe61076819952dd0
 });
 
 Route::get('wishlist', function () {

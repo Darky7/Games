@@ -2,24 +2,6 @@
 
 @section('content')
 
-<<<<<<< HEAD
-@foreach($games as $game)
-
-<article class="single_product1">
-    <figure>
-        <div class="product_thumb">
-            <a class="primary_img" href="product-details"><img src="assets/img/product/product1.jpg" alt=""></a>
-            <a class="secondary_img" href="product-details"><img src="assets/img/product/product2.jpg" alt=""></a>
-            <div class="label_product">
-                <span class="label_sale">{{$game->name}}</span>
-            </div>
-            <div class="action_links">
-                <ul>
-                    <li class="quick_button"><a href="#" data-toggle="modal" data-target="#modal_box" title="quick view"> <span class="pe-7s-search"></span></a></li>
-                    <li class="wishlist"><a href="wishlist" title="Add to Wishlist"><span class="pe-7s-like"></span></a></li>
-                    <li class="compare"><a href="#" title="Add to Compare"><span class="pe-7s-edit"></span></a></li>
-                </ul>
-=======
 <body>
     <!--breadcrumbs area start-->
     <div class="breadcrumbs_area">
@@ -27,7 +9,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="breadcrumb_content">
-                        <h3>shop</h3>
+                        <h3>shop @foreach($plateformes as $plateforme) - {{$plateforme->name}}   @endforeach</h3>
                         <ul>
                             <li><a href="/">home</a></li>
                             <li>shop</li>
@@ -74,14 +56,14 @@
                      <div class="row shop_wrapper">
                      
                      @foreach($games as $game)
-
+                   
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                             <div class="single_product">
                                 <div class="product_thumb">
-                                    <a class="primary_img" href="product-details"><img src="assets/img/product/product3.jpg" alt=""></a>
-                                    <a class="secondary_img" href="product-details"><img src="assets/img/product/product4.jpg" alt=""></a>
+                                    <a class="primary_img" href="product-details"><img src="{{ asset('assets/img/product/product3.jpg') }}" alt=""></a>
+                                    <a class="secondary_img" href="product-details"><img src="{{ asset('assets/img/product/product4.jpg') }}" alt=""></a>
 									<div class="label_product">
-										<span class="label_sale">{{$game->name}}</span>
+										<span class="label_sale">Sale</span>
 									</div>
 									<div class="action_links">
 										<ul>
@@ -93,10 +75,10 @@
                                 </div>
                                 <div class="product_content grid_content">
                                     <div class="product_content_inner">
-										<h4 class="product_name"><a href="product-details">{{$game->name}}</a></h4>
+										<h4 class="product_name"><a href="product-details">Epicuri per lobortis eleifend eget laoreet</a></h4>
 										<div class="price_box"> 
 											<span class="old_price">$86.00</span>
-											<span class="current_price">{{$game->price}} euros</span>
+											<span class="current_price">$81.00</span>
 										</div>
 									</div>
 									<div class="add_to_cart">
@@ -128,7 +110,7 @@
                             </div>
                         </div>
 
-                    @endforeach
+                        @endforeach
                  
                     
                     </div>
@@ -146,28 +128,8 @@
                     <!--shop toolbar end-->
                     <!--shop wrapper end-->
                 </div>
->>>>>>> 79c6d57ab2d3ef6d93406f6abe61076819952dd0
             </div>
         </div>
-        <figcaption class="product_content">
-            <div class="product_content_inner">
-                <h4 class="product_name"><a href="product-details">{{$game->description}}</a></h4>
-                <div class="price_box">
-                    <span class="current_price">EUR {{$game->price}} / {{$game->plateform_id}}</span>
-                </div>
-            </div>
-            <div class="add_to_cart">
-                <a href="cart">Add to cart</a>
-            </div>
-        </figcaption>
-    </figure>
-</article>
-
-
-
-    @endforeach
-
-
-
-
-@endsection
+    </div>
+    <!--shop  area end-->
+    @endsection
