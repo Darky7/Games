@@ -45,6 +45,15 @@
   box-sizing: border-box;
 }
 
+
+/* ce que j'ai modifié en css */
+
+.single_product1 {
+float:left; 
+height: 50 px; 
+width: 50 px;
+}
+
 html, body {
   height: 100%;
 }
@@ -63,6 +72,8 @@ body {
   color: #232323;
   letter-spacing: 0.3px;
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
@@ -3252,6 +3263,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     left: 6px;
     top: 25%;
   }
+
 }
 .add_to_cart a {
   line-height: 55px;

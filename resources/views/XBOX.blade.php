@@ -2,6 +2,9 @@
 
 @section('content')
 
+<body>
+
+
 @foreach($games as $game)
 
 <article class="single_product1">

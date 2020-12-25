@@ -208,8 +208,13 @@
     <!--mini cart end-->
 </header>
 <!--header area end-->
+ 
+    <body>
+    @yield('content')
 
-@yield('content')
+    </body>
+
+
 
 <footer class="footer_widgets footer_padding">
     <div class="container">

@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Plateform;
+use App\Models\Game;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,8 +18,10 @@ use Illuminate\Support\Facades\Route;
 /**
  * route index
  */
-Route::get('/', function () {
-    return view('index');
+Route::get('/', function(){
+    $plateforms = Plateform::all();
+    $games = Game::all();
+    return view('index', compact('plateforms', 'games'));
 });
 
 /**
@@ -31,12 +35,12 @@ Route::get('404', function () {
  * about page route
  */
 Route::get('about', function () {
-    return view('about');
+    $page_name = "About";
+    return view('about', [
+        'page_name' => $page_name
+    ]);
 });
 
-Route::get('404', function () {
-    return view('404');
-});
 
 Route::get('cart', function () {
     return view('cart');
@@ -71,9 +75,32 @@ Route::get('services', function () {
 });
 
 Route::get('shop', function () {
-    return view('shop');
+    $plateforms = Plateform::all();
+    $games = Game::all();
+    return view('shop', compact('plateforms', 'games'));
+   
 });
 
 Route::get('wishlist', function () {
     return view('wishlist');
 });
+
+
+
+//Route::get ({{ $plateform->plateform_type }} , function () {
+//   return view({{ $plateform->plateform_type }});
+// });
+
+
+Route::get('XBOX', function () {
+    $plateforms = Plateform::all();
+    $games = Game::all();
+    return view('XBOX',compact('games'));
+});
+
+Route::get('PS5', function () {
+    $plateforms = Plateform::all();
+    $games = Game::all();
+    return view('PS5',compact('games'));
+});
+
